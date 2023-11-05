@@ -1,27 +1,41 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Reto #33: Tetris
+#### Dificultad: Difícil | Publicación: 14/08/23 | Corrección: 21/08/23
 
-Currently, two official plugins are available:
+## Enunciado
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
 ```
+/*
+ * Crea un programa capaz de gestionar una pieza de Tetris.
+ * - La pantalla de juego tiene 10 filas y 10 columnas representadas por símbolos 🔲
+ * - La pieza de tetris a manejar será la siguiente (si quieres, puedes elegir otra):
+ *   🔳
+ *   🔳🔳🔳
+ * - La pieza aparecerá por primera vez en la parte superior izquierda de la pantalla de juego.
+ *   🔳🔲🔲🔲🔲🔲🔲🔲🔲🔲
+ *   🔳🔳🔳🔲🔲🔲🔲🔲🔲🔲
+ *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+ *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+ *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+ *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+ *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+ *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+ *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+ *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+ * - Debes desarrollar una función capaz de desplazar y rotar la pieza en el tablero,
+ *   recibiendo una acción cada vez que se llame, mostrando cómo se visualiza en la pantalla  de juego.
+ * - Las acciones que se pueden aplicar a la pieza son: derecha, izquierda, abajo, rotar.
+ * - Debes tener en cuenta los límites de la pantalla de juego.
+ * - Teclas:
+   * ⬆ : Gira la pieza
+   * ⬇ : Mueve hacia abajo la pieza
+   * ➡ : Mueve hacia dch la pieza
+   * ⬅ : Mueve hacia izq la pieza
+ */
+```
+#### Tienes toda la información extendida sobre los retos de programación semanales en **[retosdeprogramacion.com/semanales2023](https://retosdeprogramacion.com/semanales2023)**.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Sigue las **[instrucciones](../../README.md)**, consulta las correcciones y aporta la tuya propia utilizando el lenguaje de programación que quieras.
+
+> Recuerda que cada semana se publica un nuevo ejercicio y se corrige el de la semana anterior en directo desde **[Twitch](https://twitch.tv/mouredev)**. Tienes el horario en la sección "eventos" del servidor de **[Discord](https://discord.gg/mouredev)**.
