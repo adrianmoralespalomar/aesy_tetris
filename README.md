@@ -25,11 +25,10 @@
  *   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
  * - Debes desarrollar una función capaz de desplazar y rotar la pieza en el tablero,
  *   recibiendo una acción cada vez que se llame, mostrando cómo se visualiza en la pantalla  de juego.
- * - Las acciones que se pueden aplicar a la pieza son: derecha, izquierda, abajo, rotar.
+ * - Las acciones que se pueden aplicar a la pieza son: derecha, izquierda y rotar.
  * - Debes tener en cuenta los límites de la pantalla de juego.
  * - Teclas:
    * ⬆ : Gira la pieza
-   * ⬇ : Mueve hacia abajo la pieza
    * ➡ : Mueve hacia dch la pieza
    * ⬅ : Mueve hacia izq la pieza
  */
