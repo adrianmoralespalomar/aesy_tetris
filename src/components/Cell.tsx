@@ -13,7 +13,7 @@ interface Props {
   isDefColored:boolean;
 }
 
-export function Cell({ id,isColored,isDefColored }: Props): JSX.Element{
+export function Cell({ isColored,isDefColored }: Props): JSX.Element{
     const className=`border-2 border-solid border-white text-white ${isDefColored?'bg-green-500':isColored? 'bg-red-500':''}`;
     return (
       <>
